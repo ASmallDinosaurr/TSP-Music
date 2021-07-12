@@ -1,5 +1,7 @@
 # TSP Music
-This is a mod for ArmA that contains musical instruments, a live radio that can be used in vehicles as well as an extension written in C++ to support it. The folders in the addons folder can be packed into .pbo files using ArmA3Tools' Addon Builder. More information/documentation for how to use the C++ extension component of this mod for your own purposes can be found below.
+This is a mod for ArmA that contains musical instruments, a live radio that can be used in vehicles as well as an extension written in C++ to support it. It requires [CBA_A3](https://github.com/CBATeam/CBA_A3) and [ACE3](https://github.com/acemod/ACE3). 
+
+The folders in the addons folder can be packed into .pbo files using ArmA3Tools' Addon Builder. More information/documentation for how to use the C++ extension component of this mod for your own purposes can be found below.
 
 # TSP Music Extension
 This is an extension for ArmA 3 written in C++ that allows you to play 3D audio in-game from either mp3/ogg files or streamed from a URL. Resources can be loaded dynamically at runtime allowing you to do things like stream live radio channels or load audio files on the fly. This extension makes use of the [BASS.dll audio library](http://www.un4seen.com/).
@@ -18,7 +20,7 @@ The exact build commands used for VSCode can be found in the .vscode folder for 
 ## Installation/Usage
 To install the extension, both the 32 and 64-bit dll files must be placed in a mod folder. You may also need to turn off BattleEye so it doesn't get blocked on game launch.
 
-The code below is a simple implementation that will call the extension to perform a command that will run locally for each client. For a more complete implementation, check out the postInit.sqf file from the tsp_music mod.
+The code below is a simple implementation that will call the extension to perform a command that will run locally for each client. For a more complete implementation, check out the [postInit.sqf](https://github.com/ASmallDinosaurr/TSP-Music/blob/main/addons/tsp_music/postInit.sqf) file from the tsp_music mod.
 
 ```sqf
 tsp_fnc_music_callExtension = {
