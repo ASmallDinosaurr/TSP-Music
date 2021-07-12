@@ -1,7 +1,7 @@
 # TSP Music
 This is a mod for ArmA that contains musical instruments, a live radio that can be used in vehicles as well as an extension written in C++ to support it.
 
-# TSP_Music Extension
+# TSP Music Extension
 Below is some documentation for how to use the C++ extension component of this mod.
 
 ## What is it?
