@@ -27,7 +27,7 @@ tsp_fnc_music_callExtension = {
 };
 ```
 
-#### Parameters
+### Parameters
 Command** - _ _Tells the extension what to do. Available commands and their required parameters are start (mode,uid,url,volume), stop(uid)", stopAll(), volume(uid,volume) and update(uid,position,direction)._ _
 
 **Mode** - _ _Can be 0 or 1. 0 for a local file that must be stored in the tracks folder in the same directory as the dll, and 1 for a web stream._ _
