@@ -20,7 +20,7 @@ To install the extension, both the 32 and 64-bit dll files must be placed in a m
 
 The code below is a simple implementation that will call the extension to perform a command that will run locally for each client. For a more complete implementation, check out the postInit.sqf file from the tsp_music mod.
 
-```
+```sqf
 tsp_fnc_music_callExtension = {
     params [ "_command", ["_mode", 0], ["_uid", 0], ["_url", ""], ["_vol", 0], ["_pos", [0,0,0]], ["_dir", [0,0,0]]];
     "tsp_music" callExtension [_command, [_mode, _uid, _url, _vol, _pos, _dir]];
