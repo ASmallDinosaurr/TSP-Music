@@ -27,18 +27,17 @@ tsp_fnc_music_callExtension = {
 };
 ```
 
-**Parameters**
+#### Parameters
+Command** - _ _Tells the extension what to do. Available commands and their required parameters are start (mode,uid,url,volume), stop(uid)", stopAll(), volume(uid,volume) and update(uid,position,direction)._ _
 
-Command - _ _Tells the extension what to do. Available commands and their required parameters are start (mode,uid,url,volume), stop(uid)", stopAll(), volume(uid,volume) and update(uid,position,direction)._ _
+**Mode** - _ _Can be 0 or 1. 0 for a local file that must be stored in the tracks folder in the same directory as the dll, and 1 for a web stream._ _
 
-Mode - _ _Can be 0 or 1. 0 for a local file that must be stored in the tracks folder in the same directory as the dll, and 1 for a web stream._ _
+**UID** - _ _A unique integer identifier for the sound._ _
 
-UID - _ _A unique integer identifier for the sound._ _
+**URL** - _ _Name or sound file (katyusha.ogg) or web stream url._ _
 
-URL - _ _Name or sound file (katyusha.ogg) or web stream url._ _
+**Volume** - _ _Floating pointer value for volume of stream._ _
 
-Volume - _ _Floating pointer value for volume of stream._ _
+**Position** - _ _Relative position of sound source from player._ _
 
-Position - _ _Relative position of sound source from player._ _
-
-Direction - _ _Relative direction of sound source from player._ _
+**Direction** - _ _Relative direction of sound source from player._ _
