@@ -2,7 +2,7 @@
 This is a mod for ArmA that contains musical instruments, a live radio that can be used in vehicles as well as an extension written in C++ to support it.
 
 # TSP Music Extension
-Below is some documentation for how to use the C++ extension component of this mod.
+Below is some documentation for how to use the C++ extension component of this mod for your own purposes.
 
 ## What is it?
 This is an extension for ArmA 3 written in C++ that allows you to play 3D audio in-game from either mp3/ogg files or streamed from a URL. Resources can be loaded dynamically at runtime allowing you to do things like stream live radio channels or load audio files on the fly. This extension makes use of the [BASS.dll audio library](http://www.un4seen.com/).
