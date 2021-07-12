@@ -1,6 +1,11 @@
 # TSP Music
-This is a mod for ArmA that contains musical instruments, a live radio that can be used in vehicles as well as an extension written in C++ to support it. It requires [CBA_A3](https://github.com/CBATeam/CBA_A3) and [ACE3](https://github.com/acemod/ACE3). 
+This is a mod for ArmA that contains musical instruments, a live radio that can be used in vehicles as well as an extension written in C++ to support it.
 
+## Requirements
+- [CBA_A3](https://github.com/CBATeam/CBA_A3)
+- [ACE3](https://github.com/acemod/ACE3) 
+
+## How to Compile
 The folders in the addons folder can be packed into .pbo files using ArmA3Tools' Addon Builder. More information/documentation for how to use the C++ extension component of this mod for your own purposes can be found below.
 
 # TSP Music Extension
