@@ -1,15 +1,27 @@
-# TSP Music
+# TSP Melee
 This is a mod for ArmA that contains musical instruments, a live radio that can be used in vehicles as well as an extension written in C++ to support it.
 
-## Requirements
+## Usage
+This mod includes several instruments that can be placed in weapon slots on the character. These instruments can be used in the ACE self interaction menu. You can also add your own music tracks by placing them in the tracks folder in the @mod folder and declaring them in the CBA settings. 
+
+It also includes a radio in cars that can play radio stations from live stream urls. These stations can also be customized in the CBA settings.
+
+## Requirements/Compatibility
 - [CBA_A3](https://github.com/CBATeam/CBA_A3)
-- [ACE3](https://github.com/acemod/ACE3) 
+- [ACE3](https://github.com/acemod/ACE3)
+
+## Configuration
+### CBA Settings:
+- WIP
+
+### CBA Controls:
+- WIP
 
 ## How to Compile
-The folders in the addons folder can be packed into .pbo files using ArmA3Tools' Addon Builder. More information/documentation for how to use the C++ extension component of this mod for your own purposes can be found below.
+The folders can be packed into .pbo files using ArmA3Tools' Addon Builder.
 
-# TSP Music Extension
-This is an extension for ArmA 3 written in C++ that allows you to play 3D audio in-game from either mp3/ogg files or streamed from a URL. Resources can be loaded dynamically at runtime allowing you to do things like stream live radio channels or load audio files on the fly. This extension makes use of the [BASS.dll audio library](http://www.un4seen.com/).
+# Extension Stuff
+This mod includes an extension for ArmA 3 written in C++ that allows you to play 3D audio in-game from either mp3/ogg files or streamed from a URL. Resources can be loaded dynamically at runtime allowing you to do things like stream live radio channels or load audio files on the fly. This extension makes use of the [BASS.dll audio library](http://www.un4seen.com/).
 
 ## How to Compile
 The .dll file can be compiled using [Mingw-w64](http://mingw-w64.org/doku.php) in either 32 or 64-bit.
