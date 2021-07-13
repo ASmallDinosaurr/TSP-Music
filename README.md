@@ -18,7 +18,7 @@ It also includes a radio in cars that can play radio stations from live stream u
 - WIP
 
 ## How to Compile
-The folders can be packed into .pbo files using ArmA3Tools' Addon Builder.
+The folders in the addons folder can be packed into .pbo files using ArmA3Tools' Addon Builder.
 
 # Extension Stuff
 This mod includes an extension for ArmA 3 written in C++ that allows you to play 3D audio in-game from either mp3/ogg files or streamed from a URL. Resources can be loaded dynamically at runtime allowing you to do things like stream live radio channels or load audio files on the fly. This extension makes use of the [BASS.dll audio library](http://www.un4seen.com/).
